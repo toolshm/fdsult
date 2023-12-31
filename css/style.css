@@ -1,0 +1,109 @@
+	body {
+		width: 430px;
+		max-width: 100%;
+		margin: 0 auto;
+		font-family: sans-serif;
+		color: #333
+	}
+	img {
+		width: 100%
+	}
+	header {
+		display: block;
+		background-size: contain;
+		margin-bottom: 0;
+		position: relative
+	}
+	header span {
+		display: inline-block;
+		color: #fff;
+		text-align: center;
+		width: 50%;
+		position: absolute;
+		padding: 0;
+		font-size: 16pt;
+		font-weight: 700;
+		bottom: 90px;
+		right: 20px
+	}
+	header span strong {
+		text-shadow: #fb9467 1px 1px 1px;
+		display: block;
+		padding-top: 60px
+	}
+	header span b {
+		font-size: 30pt;
+		display: block;
+		margin-top: 10px
+	}
+	div.sms {
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+		background: #fb4f2a;
+		color: #fff;
+		font-weight: 700;
+		font-size: 12pt;
+		position: absolute;
+		position: absolute;
+		bottom: -35px;
+		width: 100%
+	}
+	h2 {
+		display: block;
+		margin-top: 60px;
+		font-size: 20px;
+		text-align: center;
+		color: #fb4f2a
+	}
+	h4 {
+		display: block;
+		margin-top: 0;
+		font-size: 16px;
+		text-align: center
+	}
+	a.option {
+		display: block;
+		padding: 10px;
+		text-align: center;
+		background: #69a40c;
+		color: #fff;
+		font-size: 20px;
+		margin: 6px auto;
+		width: 80%;
+		border-radius: 10px;
+		text-decoration: none;
+		font-weight: 700
+	}
+	a.option:hover {
+		background: #556f2c
+	}
+	#qes2 a.option {
+		background: #1986be;
+	}
+	#qes2 a.option:hover {
+		background: #105a80;
+	}
+	.qes {
+		display: none
+	}
+	.qes.active {
+		display: block
+	}
+	@media screen and (max-width: 380px) {
+		header span {
+			font-size: 14pt;
+			width: 55%;
+			bottom: 60px;
+			right: 10px
+		}
+		header span strong {
+			padding-top: 40px
+		}
+		header span b {
+			font-size: 24pt
+		}
+	}
+	body.ar {
+		direction: rtl;
+	}
